@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyaa - Video Editor & Visual Storyteller</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Satyaa<span>.</span></a>
+            <div class="menu-btn">
+                <div class="bars bar1"></div>
+                <div class="bars bar2"></div>
+                <div class="bars bar3"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Video Editor &<br>Visual Storyteller</h1>
+                <p>I transform ideas into compelling visual narratives through expert editing, color grading, and motion graphics. Let's create something extraordinary together.</p>
+                <div class="hero-btns">
+                    <a href="#work" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <h2 class="section-title">My Works</h2>
+            <div class="work-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="music">Music Videos</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="short-film">Short Films</button>
+            </div>
+            <div class="work-grid">
+                <!-- Project 1 -->
+                <div class="work-item" data-category="commercial">
+                    <video src="videos/first video.mp4" alt="Commercial Project" autoplay muted loop controls loading="lazy" ></video>
+                    <div class="work-overlay">
+                        <h3>Brand Campaign 2023</h3>
+                        <p>Commercial</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="work-item" data-category="music">
+                    <video  muted controls loading="lazy" src="videos/second.mp4" alt="Music Video"></video>
+                    <div class="work-overlay">
+                        <h3>Rhythm of the Night</h3>
+                        <p>Music Video</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="work-item" data-category="corporate">
+                    <video  muted controls loading="lazy" src="videos/third.mp4" alt="Corporate Video"></video>
+                    <div class="work-overlay">
+                        <h3>Tech Innovation Summit</h3>
+                        <p>Corporate</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="work-item" data-category="short-film">
+                    <video muted controls loading="lazy" src="videos/fourth.mp4" alt="Short Film"></video>
+                    <div class="work-overlay">
+                        <h3>Echoes of Time</h3>
+                        <p>Short Film</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="work-item" data-category="commercial">
+                    <video muted controls loading="lazy" src="videos/fifth.mp4" alt="Commercial Project"></video>
+                    <div class="work-overlay">
+                        <h3>Product Launch 2023</h3>
+                        <p>Commercial</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="work-item" data-category="music">
+                    <video muted controls loading="lazy" src="videos/second.mp4" alt="Music Video">
+                    <div class="work-overlay">
+                        <h3>Urban Beats</h3>
+                        <p>Music Video</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/satya.png" alt="Satyaa">
+                </div>
+                <div class="about-text">
+                    <h2>Crafting Emotion Through Edit</h2>
+                    <p>With over 5 years of experience in video editing and post-production, I specialize in transforming raw footage into compelling visual stories that captivate audiences and deliver results.</p>
+                    <p>My approach combines technical expertise with creative vision, ensuring every project maintains its unique voice while achieving the highest production standards.</p>
+                    
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Adobe After Effect</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-pro1" ></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Alight Motion</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-pro2"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>CapCut</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-pro3"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>MidJouney Ai</span>
+                                <span>25%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-pro4"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>HeyGen Ai</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-pro5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" download="" class="btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Create Something Amazing Together</h3>
+                    <p>Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can bring your vision to life.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>satynox4@gmail.com</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 4545454545</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                        <a href="https://youtube.com/@satynox?si=5KcgDEYnIxLqV-Du"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Satyaa<span>.</span></div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Satyaa. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
