@@ -2,10 +2,12 @@
         const menuBtn = document.querySelector('.menu-btn');
         const navLinks = document.getElementById('nav-links');
         const bars = document.querySelectorAll('.bars');
+        const blur = document.querySelector('.blur');
         
         menuBtn.addEventListener('click', () => {
             menuBtn.classList.toggle("btn-click");
             navLinks.classList.toggle('active');
+            blur.classList.toggle('on-off');
             bars.forEach(bar => {
                 bar.classList.toggle('btn-click');
             })
