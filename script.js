@@ -18,8 +18,11 @@
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
-                blur.classList.toggle('on-off');
-      
+                blur.classList.remove('on-off');
+                menuBtn.classList.remove("btn-click");
+                bars.forEach(bar => {
+                bar.classList.remove('btn-click');
+            })
             });
         });
         
